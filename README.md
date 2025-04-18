@@ -1,4 +1,19 @@
-Copy-Paste the file contents into the similarly named files (sketch.ino and diagram.json) in wokwi.com for the NUCLEO C031C6 to view it.
+*LEDs (Moles): PA0, PA1, PA5
 
-When working on a feature just make a new branch and commit it over there with the name of the 
-feature like feature/seven_seg_Disp so we can stay organized and we can work on different features at the same time.
+*Buttons: PB0, PB7, PB14
+
+*Green LED (success): PC0
+
+*Red LED (failure): PC1
+
+*3 Levels: Easy (3s), Medium (2s), Hard (1s)
+
+*Must hit 5 moles per level
+
+*Failure ends game with red LED blinking 3x
+
+*Level passed blinks green LED 3x
+
+*Before a Level start, both Red and Green Led's will blink 3x
+
+*If the wrong mole is hit, automatic lose for the user
